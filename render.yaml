@@ -1,3 +1,5 @@
-services:- type:
-webname: SchoolProjectenv: 
-dockerplan: free
+services:
+  - type: web
+    name: SchoolProject
+    env: docker
+    plan: free
